@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="ShangriDocs" content="">
+    <meta name="Lauren Wong" content="">
+
+    <title>ShangriDocs</title>
+
+    <!-- Google Fonts -->
+    <!-- Bootstrap core CSS -->
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+  </head>
+
+<!-- This is where the navigation goes -->
+<nav class="navbar-top navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">ShangriDocs</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">How to Use</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+<!-- This is where the Document goes -->
+  <div class="container" id="document">
+    <div class="row">
+		<div class="col-sm-8 col-md-8" id="left">
+
+
+
+				<div class="page-header">
+					<h1> <img id="logo" src="img/shangrila_logo.gif" alt="Shangrila" height="56" width="60">The Methylation of DNA</h1>
+					</div>
+          <div class="content">
+					<h3> Abstract </h3>
+					<p>The methylation of DNA bases plays an important role in numerous biological processes in- cluding development, gene expression, and DNA replication. Salmonella is an important foodborne pathogen, and methylation in Salmonella is implicated in virulence. Using single molecule real-time (SMRT) DNA-sequencing, we sequenced and assembled the complete genomes of eleven Salmonella enterica isolates from nine different serovars, and analysed the whole-genome methylation patterns of each genome. We describe 16 distinct N6- methyladenine (m6A) methylated motifs, one N4-methylcytosine (m4C) motif, and one com- bined m6A-m4C motif. Eight of these motifs are novel, i.e., they have not been previously described. We also identified the methyltransferases (MTases) associated with 13 of the motifs. Some motifs are conserved across all Salmonella serovars tested, while others were found only in a subset of serovars. Eight of the nine serovars contained a unique methylated motif that was not found in any other serovar (most of these motifs were part of Type I re- striction modification systems), indicating the high diversity of methylation patterns present in Salmonella.
+					</p>
+					<h3> Introduction </h3>
+					<p>The methylation of DNA is important in all kingdoms of life as a mechanism of epigenetic con- trol [1–3]. Methylation is achieved through the action of methyltransferase enzymes (MTases), which covalently attach methyl groups to DNA bases. In eukaryotes, 5-methylcytosine (m5C) is the most common methylation. In contrast, N6-methyladenine (m6A) is the most frequent methylation in prokaryotes, although N4-methylcytosine (m4C) and m5C are also widespread.</p>
+
+          <h3> Study</h3>
+					<p>Methylation in eukaryotes has been well studied and is known to mediate diverse processes including growth, development, and disease [4]. In prokaryotes, methylation is a key compo- nent
+					of restriction-modification (RM) systems, which protect cells from foreign DNA. RM sys- tems are composed of multiple proteins, including at least one MTase, which recognizes and methylates a base contained within a specific sequence motif, and one endonuclease, or REase, which cleaves foreign DNA with a methylation pattern different from that of the host DNA. RM systems are subdivided into four main classes that differ in subunit composition, motif characteristics, cofactor requirements, and location of DNA cleavage (for review, see [5]). In brief, Type 1 RM systems are composed of two restriction subunits (R), two methylation sub- units (M) and one specificity subunit (S), which recognizes specific DNA sequences. Recog- nized motifs are asymmetric and bipartite. Type II systems include one R and one M subunit which can function independently, and recognized motifs are mostly symmetric. Type III sys- tems are hetero-oligomers composed of a mod subunit (recognizes and modifies DNA) and a res subunit that is only active in a mod-res complex. The only RM systems that recognize methyl- ated, instead of unmethylated sites, are Type IV. Methylation in bacteria also influences critical processes including gene regulation, cell cycle control, pathogenicity, and DNA repair [2].</p>
+
+          <p>The methylation of DNA is important in all kingdoms of life as a mechanism of epigenetic con- trol [1–3]. Methylation is achieved through the action of methyltransferase enzymes (MTases), which covalently attach methyl groups to DNA bases. In eukaryotes, 5-methylcytosine (m5C) is the most common methylation. In contrast, N6-methyladenine (m6A) is the most frequent methylation in prokaryotes, although N4-methylcytosine (m4C) and m5C are also widespread.
+					Methylation in eukaryotes has been well studied and is known to mediate diverse processes including growth, development, and disease [4]. In prokaryotes, methylation is a key compo- nent
+					of restriction-modification (RM) systems, which protect cells from foreign DNA. RM sys- tems are composed of multiple proteins, including at least one MTase, which recognizes and methylates a base contained within a specific sequence motif, and one endonuclease, or REase, which cleaves foreign DNA with a methylation pattern different from that of the host DNA. RM systems are subdivided into four main classes that differ in subunit composition, motif characteristics, cofactor requirements, and location of DNA cleavage (for review, see [5]). In brief, Type 1 RM systems are composed of two restriction subunits (R), two methylation sub- units (M) and one specificity subunit (S), which recognizes specific DNA sequences. Recog- nized motifs are asymmetric and bipartite. Type II systems include one R and one M subunit which can function independently, and recognized motifs are mostly symmetric. Type III sys- tems are hetero-oligomers composed of a mod subunit (recognizes and modifies DNA) and a res subunit that is only active in a mod-res complex. The only RM systems that recognize methyl- ated, instead of unmethylated sites, are Type IV. Methylation in bacteria also influences critical processes including gene regulation, cell cycle control, pathogenicity, and DNA repair [2].</p>
+
+          <p>The methylation of DNA is important in all kingdoms of life as a mechanism of epigenetic con- trol [1–3]. Methylation is achieved through the action of methyltransferase enzymes (MTases), which covalently attach methyl groups to DNA bases. In eukaryotes, 5-methylcytosine (m5C) is the most common methylation. In contrast, N6-methyladenine (m6A) is the most frequent methylation in prokaryotes, although N4-methylcytosine (m4C) and m5C are also widespread.
+					Methylation in eukaryotes has been well studied and is known to mediate diverse processes including growth, development, and disease [4]. In prokaryotes, methylation is a key compo- nent
+					of restriction-modification (RM) systems, which protect cells from foreign DNA. RM sys- tems are composed of multiple proteins, including at least one MTase, which recognizes and methylates a base contained within a specific sequence motif, and one endonuclease, or REase, which cleaves foreign DNA with a methylation pattern different from that of the host DNA. RM systems are subdivided into four main classes that differ in subunit composition, motif characteristics, cofactor requirements, and location of DNA cleavage (for review, see [5]). In brief, Type 1 RM systems are composed of two restriction subunits (R), two methylation sub- units (M) and one specificity subunit (S), which recognizes specific DNA sequences. Recog- nized motifs are asymmetric and bipartite. Type II systems include one R and one M subunit which can function independently, and recognized motifs are mostly symmetric. Type III sys- tems are hetero-oligomers composed of a mod subunit (recognizes and modifies DNA) and a res subunit that is only active in a mod-res complex. The only RM systems that recognize methyl- ated, instead of unmethylated sites, are Type IV. Methylation in bacteria also influences critical processes including gene regulation, cell cycle control, pathogenicity, and DNA repair [2].</p>
+
+          <h3> Conclusion </h3>
+					<p>The methylation of DNA is important in all kingdoms of life as a mechanism of epigenetic con- trol [1–3]. Methylation is achieved through the action of methyltransferase enzymes (MTases), which covalently attach methyl groups to DNA bases. In eukaryotes, 5-methylcytosine (m5C) is the most common methylation. In contrast, N6-methyladenine (m6A) is the most frequent methylation in prokaryotes, although N4-methylcytosine (m4C) and m5C are also widespread.The methylation of DNA is important in all kingdoms of life as a mechanism of epigenetic con- trol [1–3]. Methylation is achieved through the action of methyltransferase enzymes (MTases), which covalently attach methyl groups to DNA bases. In eukaryotes, 5-methylcytosine (m5C) is the most common methylation. In contrast, N6-methyladenine (m6A) is the most frequent methylation in prokaryotes, although N4-methylcytosine (m4C) and m5C are also widespread.</p>
+          </div>
+					</div>
+					</div>
+        </div>
+
+<!-- Here is the Sidebar goes -->
+				<div class="col-sm-4 col-md-4" id="right">
+					<div class="sidebar-nav">
+				  <div class="navbar navbar-default" role="navigation">
+
+				  <div class="navbar-collapse collapse sidebar-navbar-collapse">
+
+          <div class="row tabs">
+          <ul class="nav navbar-nav" id="sidenav01">
+          <ul class="nav nav-tabs">
+
+          <!-- Search Tab -->
+          <div class="col-md-6" id=searchTab>
+          <li role="presentation" class="active">
+            <a class="tabs" href="#">Web Searches</a>
+          </li>
+          </div>
+
+          <!-- Extracted Data -->
+          <div class="col-md-6" id=dataTab>
+          <li role="presentation">
+            <a class="tabs" href="#">Extracted Data</a>
+          </li>
+          </div>
+
+          </ul>
+          </div>
+
+
+          <div id="custom-search-input">
+                     <div class="input-group col-md-6">
+                         <input type="text" class="  search-query form-control" placeholder="Search" />
+                         <span class="input-group-btn">
+                             <button class="btn btn-danger" type="button">
+                                 <span class=" glyphicon glyphicon-search"></span>
+                             </button>
+                         </span>
+                     </div>
+          </div>
+
+<!-- Here is where the External Searches go -->
+            <div id="externalSearches">
+
+              <!-- Study Search -->
+								<li>
+
+				          <a href="#" data-toggle="collapse" data-target="#toggleDemo" data-parent="#sidenav01" class="collapsed">
+                  <span class="badge">42</span> &nbsp;
+  				              Study Search
+				          </a>
+				          <div class="collapse" id="toggleDemo" style="height: 0px;">
+				            <ul class="nav nav-list">
+                      <ul class="studySearch"
+											<li>
+                        <a class="resultsTitle" href="#">
+                      1. Zebrafish IMiDs RNA
+                      </a>
+                      </li>
+
+                      <li>
+                        Affymetrix Zebrafish expression arrays were used to profile expression during early development. Lenalidomide, pomalidomide and thalidomide combinations were tracked over 3 timepoints(0hr, 6hr, and 12hr) 2 hours post-fertilization with 3 repicates.
+                      </li>
+
+                      <li>
+                      <strong>Study Factors:</strong>
+                      Compound, Dose, Dose Time, Development Time
+                      </li>
+
+                      <li>
+                      <strong>Assay:</strong>
+                      DNA microarray
+                      </li>
+
+                      <li>
+                      <strong>Measurement Type:</strong>
+                      transcription profiling
+                      </li>
+
+                      <li>
+                      <strong>Data Asset Number:</strong>
+                      DA0000079
+                      </li>
+
+                      <li><a class="results" href="#">
+                      View details...</a></li>
+                      </ul>
+
+                        <br>
+
+                      <ul class="studySearch"
+											<li>
+                        <a class="resultsTitle" href="#">
+                      2. Zebrafish IMiDs RNA
+                      </a>
+                      </li>
+
+                      <li>
+                        Affymetrix Zebrafish expression arrays were used to profile expression during early development. Lenalidomide, pomalidomide and thalidomide combinations were tracked over 3 timepoints(0hr, 6hr, and 12hr) 2 hours post-fertilization with 3 repicates.
+                      </li>
+
+                      <li>
+                      <strong>Study Factors:</strong>
+                      Compound, Dose, Dose Time, Development Time
+                      </li>
+
+                      <li>
+                      <strong>Assay:</strong>
+                      DNA microarray
+                      </li>
+
+                      <li>
+                      <strong>Measurement Type:</strong>
+                      transcription profiling
+                      </li>
+
+                      <li>
+                      <strong>Data Asset Number:</strong>
+                      DA0000079
+                      </li>
+
+                      <li><a class="results" href="#">
+                      View details...</a></li>
+                      </ul>
+
+                      <br>
+
+                      <ul class="studySearch"
+											<li>
+                        <a class="resultsTitle" href="#">
+                      3. Zebrafish IMiDs RNA
+                      </a>
+                      </li>
+
+                      <li>
+                        Affymetrix Zebrafish expression arrays were used to profile expression during early development. Lenalidomide, pomalidomide and thalidomide combinations were tracked over 3 timepoints(0hr, 6hr, and 12hr) 2 hours post-fertilization with 3 repicates.
+                      </li>
+
+                      <li>
+                      <strong>Study Factors:</strong>
+                      Compound, Dose, Dose Time, Development Time
+                      </li>
+
+                      <li>
+                      <strong>Assay:</strong>
+                      DNA microarray
+                      </li>
+
+                      <li>
+                      <strong>Measurement Type:</strong>
+                      transcription profiling
+                      </li>
+
+                      <li>
+                      <strong>Data Asset Number:</strong>
+                      DA0000079
+                      </li>
+
+                      <li><a class="results" href="#">
+                      View details...</a></li>
+                      </ul>
+
+                      <br>
+
+                      <ul class="studySearch"
+											<li>
+                        <a class="resultsTitle" href="#">
+                      4. Zebrafish IMiDs RNA
+                      </a>
+                      </li>
+
+                      <li>
+                        Affymetrix Zebrafish expression arrays were used to profile expression during early development. Lenalidomide, pomalidomide and thalidomide combinations were tracked over 3 timepoints(0hr, 6hr, and 12hr) 2 hours post-fertilization with 3 repicates.
+                      </li>
+
+                      <li>
+                      <strong>Study Factors:</strong>
+                      Compound, Dose, Dose Time, Development Time
+                      </li>
+
+                      <li>
+                      <strong>Assay:</strong>
+                      DNA microarray
+                      </li>
+
+                      <li>
+                      <strong>Measurement Type:</strong>
+                      transcription profiling
+                      </li>
+
+                      <li>
+                      <strong>Data Asset Number:</strong>
+                      DA0000079
+                      </li>
+
+                      <li><a class="results" href="#">
+                      View details...</a></li>
+                      </ul>
+
+                      <li><a class="results" href="#">
+                      Study Search Results Page...</a></li>
+                    </ul>
+				          </div>
+				        </li>
+
+                <hr>
+
+              <!-- Pub Med -->
+                <li>
+                  <a href="#" data-toggle="collapse" data-target="#toggleDemo3" data-parent="#sidenav01" class="collapsed">
+                    <span class="badge">21</span>&nbsp;
+  				         PubMed
+                  </a>
+                  <div class="collapse" id="toggleDemo3" style="height: 0px;">
+                    <ul class="nav nav-list">
+                    <ul class="pubMed">
+                      <li><a class="resultsTitle" href="#">1. Alterations in Cellular Metabolome after Pharmacological Inhibition of Notch in Glioblastoma Cells.</a>
+                      </li>
+
+                      <li>
+                      <strong>Author:</strong>
+                      Wang Y, Yang L, Zhou K, Zhang Y, Song Z, He S.
+                      </li>
+
+                      <li>
+                      Genome Biol Evol. 2015 Oct 9. pii: evv192. [Epub ahead of print]
+                      </li>
+
+                      <li><a class="results" href="#">
+                      Free Article
+                      </a>
+                      </li>
+                    </ul>
+                    <br>
+                    <ul class="pubMed">
+                      <li><a class="resultsTitle" href="#">2. Alterations in Cellular Metabolome after Pharmacological Inhibition of Notch in Glioblastoma Cells.</a>
+                      </li>
+
+                      <li>
+                      <strong>Author:</strong>
+                      Wang Y, Yang L, Zhou K, Zhang Y, Song Z, He S.
+                      </li>
+
+                      <li>
+                      Genome Biol Evol. 2015 Oct 9. pii: evv192. [Epub ahead of print]
+                      </li>
+
+                      <li><a class="results" href="#">
+                      Free Article
+                      </a>
+                      </li>
+                    </ul>
+                    <br>
+                    <ul class="pubMed">
+                      <li><a class="resultsTitle" href="#">3. Bacterial membrane vesicles, an overlooked environmental colloid: Biology, environmental perspectives and applications.</a>
+                      </li>
+
+                      <li>
+                      <strong>Author:</strong>
+                      Wang Y, Yang L, Zhou K, Zhang Y, Song Z, He S.
+                      </li>
+
+                      <li>
+                      Genome Biol Evol. 2015 Oct 9. pii: evv192. [Epub ahead of print]
+                      </li>
+
+                      <li><a class="results" href="#">
+                      Free Article
+                      </a>
+                      </li>
+                    </ul>
+                    <br>
+                    <ul class="pubMed">
+                      <li><a class="resultsTitle" href="#">4. Cloning, expression and biochemical characterization of recombinant superoxide dismutase from Antarctic psychrophilic bacterium Pseudoalteromonas sp. ANT506.</a>
+                      </li>
+
+                      <li>
+                      <strong>Author:</strong>
+                      Wang Y, Yang L, Zhou K, Zhang Y, Song Z, He S.
+                      </li>
+
+                      <li>
+                      Genome Biol Evol. 2015 Oct 9. pii: evv192. [Epub ahead of print]
+                      </li>
+
+                      <li><a class="results" href="#">
+                      Free Article
+                      </a>
+                      </li>
+                    </ul>
+
+                    <li><a href="#">Pub Med Results Page...</a></li>
+                      </ul>
+                    </ul>
+                  </div>
+                </li>
+
+                <hr>
+
+              <!-- Wikipedia -->
+                <li>
+                  <a href="#" data-toggle="collapse" data-target="#toggleDemo4" data-parent="#sidenav01" class="collapsed">
+                    <span class="badge">43</span>&nbsp;
+  				         Wikipedia
+                  </a>
+                  <div class="collapse" id="toggleDemo4" style="height: 0px;">
+                    <ul class="nav nav-list">
+                    <ul class="wikipedia"
+                      <li>
+                        <a class="resultsTitle" href="#">
+                      1. Gene
+                      </a>
+                      </li>
+
+                      <li>
+                        A gene is a locus (or region) of DNA that encodes a functional RNA or protein product, and is the molecular unit of heredity
+                      </li>
+
+                      <!-- Could be h3s from Wikipedia page/ contents titles and subtitles -->
+                      <li>
+                      <a class="subResults" href="#"> History, </a>
+                      <a class="subResults" href="#"> Molecular basis,</a>
+                      <a class="subResults" href="#"> Structure and Function, </a>
+                      <a class="subResults" href="#"> Gene Expression, </a>
+                      <a class="subResults" href="#"> Inheritance, </a>
+                      <a class="subResults" href="#"> Molecular Evolution, </a>
+                      <a class="subResults" href="#"> Genome, </a>
+                      <a class="subResults" href="#"> Genetic Engineering </a>
+                      </li>
+
+                      <li><a class="results" href="#">
+                      View details...</a></li>
+                      </ul>
+
+                    <br>
+
+                    <ul class="wikipedia"
+                      <li>
+                        <a class="resultsTitle" href="#">
+                      1. Gene
+                      </a>
+                      </li>
+
+                      <li>
+                        A gene is a locus (or region) of DNA that encodes a functional RNA or protein product, and is the molecular unit of heredity
+                      </li>
+
+                      <!-- Could be h3s from Wikipedia page/ contents titles and subtitles -->
+                      <li>
+                      <a class="subResults" href="#"> History, </a>
+                      <a class="subResults" href="#"> Molecular basis,</a>
+                      <a class="subResults" href="#"> Structure and Function, </a>
+                      <a class="subResults" href="#"> Gene Expression, </a>
+                      <a class="subResults" href="#"> Inheritance, </a>
+                      <a class="subResults" href="#"> Molecular Evolution, </a>
+                      <a class="subResults" href="#"> Genome, </a>
+                      <a class="subResults" href="#"> Genetic Engineering </a>
+                      </li>
+
+                      <li><a class="results" href="#">
+                      View details...</a></li>
+                      </ul>
+
+                    <br>
+                    <ul class="wikipedia"
+                      <li>
+                        <a class="resultsTitle" href="#">
+                      1. Gene
+                      </a>
+                      </li>
+
+                      <li>
+                        A gene is a locus (or region) of DNA that encodes a functional RNA or protein product, and is the molecular unit of heredity
+                      </li>
+
+                      <!-- Could be h3s from Wikipedia page/ contents titles and subtitles -->
+                      <li>
+                      <a class="subResults" href="#"> History, </a>
+                      <a class="subResults" href="#"> Molecular basis,</a>
+                      <a class="subResults" href="#"> Structure and Function, </a>
+                      <a class="subResults" href="#"> Gene Expression, </a>
+                      <a class="subResults" href="#"> Inheritance, </a>
+                      <a class="subResults" href="#"> Molecular Evolution, </a>
+                      <a class="subResults" href="#"> Genome, </a>
+                      <a class="subResults" href="#"> Genetic Engineering </a>
+                      </li>
+
+                      <li><a class="results" href="#">
+                      View details...</a></li>
+                      </ul>
+                    </ul>
+                  </div>
+                </li>
+
+                <hr>
+
+              <!-- GeneCard -->
+                <li>
+                  <a href="#" data-toggle="collapse" data-target="#toggleDemo5" data-parent="#sidenav01" class="collapsed">
+                    <span class="badge">17</span>&nbsp;
+                   GeneCard
+                  </a>
+                  <div class="collapse" id="toggleDemo5" style="height: 0px;">
+                    <ul class="nav nav-list">
+                      <ul class="geneCard">
+                        <li>
+                        <strong>Symbol:</strong>
+                        ALB
+                        </li>
+
+                        <li>
+                        <strong>Description:</strong>
+                        Albumium
+                        </li>
+
+                        <li><a class="results" href="#">
+                        View Details...</a></li>
+                        </ul>
+                      <br>
+                      <ul class="geneCard">
+                        <li>
+                        <strong>Symbol:</strong>
+                        CUBN
+                        </li>
+
+                        <li>
+                        <strong>Description:</strong>
+                        Cubilin (Intrinsic Factor-Cobalamin Receptor)
+                        </li>
+
+                        <li><a class="results" href="#">
+                        View Details...</a></li>
+                        </ul>
+                      <br>
+
+                      <ul class="geneCard">
+                        <li>
+                        <strong>Symbol:</strong>
+                        AFP
+                        </li>
+
+                        <li>
+                        <strong>Description:</strong>
+                        Alpha-Fetoprotein
+                        </li>
+
+                        <li><a class="results" href="#">
+                        View Details...</a></li>
+                        </ul>
+
+                        <br>
+
+                        <ul class="geneCard">
+                          <li>
+                          <strong>Symbol:</strong>
+                          AFM
+                          </li>
+
+                          <li>
+                          <strong>Description:</strong>
+                          Afamin
+                          </li>
+
+                          <li><a class="results" href="#">
+                          View Details...</a></li>
+                          </ul>
+
+                          <br>
+
+                          <ul class="geneCard">
+                            <li>
+                            <strong>Symbol:</strong>
+                            FBF1
+                            </li>
+
+                            <li>
+                            <strong>Description:</strong>
+                            Fas (TNFRSF6) Binding Factor 1
+                            </li>
+
+                            <li><a class="results" href="#">
+                            View Details...</a></li>
+                            </ul>
+
+                            <li><a class="results" href="#">
+                            GeneCard Results Page...</a></li>
+
+                    </ul>
+                  </div>
+                </li>
+
+                <hr>
+
+              <!-- String DB -->
+                <li>
+                  <a href="#" data-toggle="collapse" data-target="#toggleDemo6" data-parent="#sidenav01" class="collapsed">
+                    <span class="badge">15</span>&nbsp;
+  				         StringDB
+                  </a>
+                  <div class="collapse" id="toggleDemo6" style="height: 0px;">
+                    <ul class="nav nav-list">
+                      <ul class="stringDB">
+                        <li>
+                        <strong>Organism:</strong>
+                        Homo Sapiens
+                        </li>
+
+                        <li>
+                        <strong>Description:</strong>
+                        TDO1-trytophan 2,3-dioxygenase; Incorporates oxygen into the indole moiety of tryptophan. Has a broad specificity..
+                        </li>
+
+                        <li><a class="results" href="#">
+                        View Details...</a></li>
+                      </ul>
+
+                      <br>
+                      <ul class="stringDB">
+                        <li>
+                        <strong>Organism:</strong>
+                        Homo Sapiens
+                        </li>
+
+                        <li>
+                        <strong>Description:</strong>
+                        TDO1-trytophan 2,3-dioxygenase; Incorporates oxygen into the indole moiety of tryptophan. Has a broad specificity..
+                        </li>
+
+                        <li><a class="results" href="#">
+                        View Details...</a></li>
+                      </ul>
+
+                      <br>
+                      <ul class="stringDB">
+                        <li>
+                        <strong>Organism:</strong>
+                        Homo Sapiens
+                        </li>
+
+                        <li>
+                        <strong>Description:</strong>
+                        TDO1-trytophan 2,3-dioxygenase; Incorporates oxygen into the indole moiety of tryptophan. Has a broad specificity..
+                        </li>
+
+                        <li><a class="results" href="#">
+                        View Details...</a></li>
+                      </ul>
+
+                      <li><a href="#">
+                      View All Results...</a></li>
+
+                    </ul>
+                  </div>
+                </li>
+
+                <hr>
+
+              <!-- OMIM -->
+                <li>
+                  <a href="#" data-toggle="collapse" data-target="#toggleDemo7" data-parent="#sidenav01" class="collapsed">
+                    <span class="badge">32</span>&nbsp;
+  				         OMIM
+                  </a>
+                  <div class="collapse" id="toggleDemo7" style="height: 0px;">
+                    <ul class="nav nav-list">
+                      <ul class="omim">
+                        <li>
+                        <strong>Title:</strong>
+                        609423. HUMAN IMMUNODEFICIENCY VIRUS TYPE 1, SUSCEPTIBILITY TO
+                        </li>
+
+                        <li>
+                        <strong>Description:</strong>
+                        </li>
+
+                        <li>
+                        <strong>Gene Phenotype:</strong>
+                        </li>
+
+                        <li><a class="results" href="#">
+                        View Details...</a></li>
+                      </ul>
+
+                      <br>
+
+                      <ul class="omim">
+                        <li>
+                        <strong>Title:</strong>
+                        609423. HUMAN IMMUNODEFICIENCY VIRUS TYPE 1, SUSCEPTIBILITY TO
+                        </li>
+
+                        <li>
+                        <strong>Description:</strong>
+                        </li>
+
+                        <li>
+                        <strong>Gene Phenotype:</strong>
+                        </li>
+
+                        <li><a class="results" href="#">
+                        View Details...</a></li>
+                      </ul>
+                      <br>
+
+                      <ul class="omim">
+                        <li>
+                        <strong>Title:</strong>
+                        609423. HUMAN IMMUNODEFICIENCY VIRUS TYPE 1, SUSCEPTIBILITY TO
+                        </li>
+
+                        <li>
+                        <strong>Description:</strong>
+                        </li>
+
+                        <li>
+                        <strong>Gene Phenotype:</strong>
+                        </li>
+
+                        <li><a class="results" href="#">
+                        View Details...</a></li>
+                      </ul>
+
+                      <li><a href="#">View All Results...</a></li>
+
+                    </ul>
+                  </div>
+                </li>
+
+                <hr>
+
+              <!-- UniProt -->
+                <li>
+                  <a href="#" data-toggle="collapse" data-target="#toggleDemo8" data-parent="#sidenav01" class="collapsed">
+                    <span class="badge">22</span>&nbsp;
+                  UniProt
+                  </a>
+                  <div class="collapse" id="toggleDemo8" style="height: 0px;">
+
+                    <ul class="nav nav-list">
+
+                      <ul class="uniprot">
+                        <li>
+                        <strong>Protein:</strong>
+                        Sterol Carrier Protein- X
+                        </li>
+
+                        <li>
+                        <strong>Organism: </strong>
+                        Aedes Aegypti (Yellowfever mosquito) (Culex aegypti)
+                        </li>
+
+                        <li><a class="results" href="#">
+                        View Details...</a></li>
+                      </ul>
+
+                      <br>
+
+                      <ul class="uniprot">
+                        <li>
+                        <strong>Protein:</strong>
+                        Sterol Carrier Protein- X
+                        </li>
+
+                        <li>
+                        <strong>Organism: </strong>
+                        Aedes Aegypti (Yellowfever mosquito) (Culex aegypti)
+                        </li>
+
+                        <li><a class="results" href="#">
+                        View Details...</a></li>
+                      </ul>
+
+                      <br>
+
+                      <ul class="uniprot">
+                        <li>
+                        <strong>Protein:</strong>
+                        Sterol Carrier Protein- X
+                        </li>
+
+                        <li>
+                        <strong>Organism: </strong>
+                        Aedes Aegypti (Yellowfever mosquito) (Culex aegypti)
+                        </li>
+
+                        <li><a class="results" href="#">
+                        View Details...</a></li>
+                      </ul>
+
+
+                      <li><a href="#">
+                      View all results...</a></li>
+                    </li>
+
+                <hr>
+
+              </ul>
+            </div>
+
+<!-- Here is where the Extracted Data goes -->
+            <div id="extractedData">
+            </div>
+            </div>
+
+    		    </div><!--/.nav-collapse -->
+				    </div>
+  				  </div>
+  					</div>
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<!-- <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>-->
+		</body>
+
+
+</html>
