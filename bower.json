@@ -2,7 +2,7 @@
   "name": "dia-website",
   "version": "0.0.0",
   "authors": [
-    "Rishi Verma <rishi.verma@jpl.nasa.gov>"
+    "Lauren Wong <lauren.a.wong@jpl.nasa.gov>"
   ],
   "description": "JPL-398M Group Website",
   "main": "index.html",

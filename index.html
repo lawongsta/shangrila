@@ -78,44 +78,43 @@
 				<div class="col-sm-4 col-md-4" id="right">
 					<div class="sidebar-nav">
 				  <div class="navbar navbar-default" role="navigation">
-
 				  <div class="navbar-collapse collapse sidebar-navbar-collapse">
 
-          <div class="row tabs">
-          <ul class="nav navbar-nav" id="sidenav01">
           <ul class="nav nav-tabs">
 
-          <!-- Search Tab -->
-          <div class="col-md-6" id=searchTab>
-          <li role="presentation" class="active">
-            <a class="tabs" href="#">Web Searches</a>
-          </li>
-          </div>
+          <!-- Web Searches -->
+          <!-- searchTab> -->
+            <li class="active">
+              <a data-toggle="tab"  href="#externalSearches">Web Searches</a>
+            </li>
+
 
           <!-- Extracted Data -->
-          <div class="col-md-6" id=dataTab>
-          <li role="presentation">
-            <a class="tabs" href="#">Extracted Data</a>
+          <!-- dataTab> -->
+            <li>
+            <a data-toggle="tab"  href="#extractedData">Extracted Data</a>
           </li>
-          </div>
+
 
           </ul>
           </div>
 
 
           <div id="custom-search-input">
-                     <div class="input-group col-md-6">
-                         <input type="text" class="  search-query form-control" placeholder="Search" />
-                         <span class="input-group-btn">
-                             <button class="btn btn-danger" type="button">
-                                 <span class=" glyphicon glyphicon-search"></span>
-                             </button>
-                         </span>
-                     </div>
+                <div class="input-group col-md-6">
+                   <input type="text" class="  search-query form-control" placeholder="Search" />
+                    <span class="input-group-btn">
+                      <button class="btn btn-danger" type="button">
+                        <span class=" glyphicon glyphicon-search"></span>
+                      </button>
+                   </span>
+                </div>
           </div>
 
+<div class="tab-content">
 <!-- Here is where the External Searches go -->
-            <div id="externalSearches">
+
+            <div id="externalSearches" class="tab-pane fade in active">
 
               <!-- Study Search -->
 								<li>
@@ -302,9 +301,13 @@
                       </li>
 
                       <li><a class="results" href="#">
-                      Free Article
+                      Free Article,
+                      </a><a class="results" href="#">
+                      Similar Articles
                       </a>
                       </li>
+
+
                     </ul>
                     <br>
                     <ul class="pubMed">
@@ -321,9 +324,12 @@
                       </li>
 
                       <li><a class="results" href="#">
-                      Free Article
+                      Free Article,
+                      </a><a class="results" href="#">
+                      Similar Articles
                       </a>
                       </li>
+
                     </ul>
                     <br>
                     <ul class="pubMed">
@@ -340,9 +346,12 @@
                       </li>
 
                       <li><a class="results" href="#">
-                      Free Article
+                      Free Article,
+                      </a><a class="results" href="#">
+                      Similar Articles
                       </a>
                       </li>
+
                     </ul>
                     <br>
                     <ul class="pubMed">
@@ -359,9 +368,12 @@
                       </li>
 
                       <li><a class="results" href="#">
-                      Free Article
+                      Free Article,
+                      </a><a class="results" href="#">
+                      Similar Articles
                       </a>
                       </li>
+
                     </ul>
 
                     <li><a href="#">Pub Med Results Page...</a></li>
@@ -412,12 +424,12 @@
                     <ul class="wikipedia"
                       <li>
                         <a class="resultsTitle" href="#">
-                      1. Gene
+                      1. Genetics
                       </a>
                       </li>
 
                       <li>
-                        A gene is a locus (or region) of DNA that encodes a functional RNA or protein product, and is the molecular unit of heredity
+                        Genetics is the study of genes, heredity, and genetic variation in living organisims. It is generall considered a field of biology, but it intersects frequently with many of the life sciences and is strongly linked with the study of information systems
                       </li>
 
                       <!-- Could be h3s from Wikipedia page/ contents titles and subtitles -->
@@ -440,12 +452,12 @@
                     <ul class="wikipedia"
                       <li>
                         <a class="resultsTitle" href="#">
-                      1. Gene
+                      1. General Relativity
                       </a>
                       </li>
 
                       <li>
-                        A gene is a locus (or region) of DNA that encodes a functional RNA or protein product, and is the molecular unit of heredity
+                        General relativity, also known as the general theory of gravitation published by Albert Einstein in 1915 and the current description of gravitation in modern physics.
                       </li>
 
                       <!-- Could be h3s from Wikipedia page/ contents titles and subtitles -->
@@ -771,16 +783,20 @@
 
               </ul>
             </div>
+          </div>
 
 <!-- Here is where the Extracted Data goes -->
-            <div id="extractedData">
+            <div id="extractedData" class="tab-pane fade">
+              <p> lAlalalalalalalalalalalalallalalalal </p>
             </div>
             </div>
+
+          </div>
 
     		    </div><!--/.nav-collapse -->
 				    </div>
-  				  </div>
-  					</div>
+  				
+
 
 
 <!-- Bootstrap core JavaScript
